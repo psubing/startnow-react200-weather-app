@@ -13,8 +13,6 @@ export default class Search extends React.Component {
   handleSearchInput(event) {
     const { dispatch } = this.props;
     const { value } = event.target;
-    console.log('jsx: ' + value)
-    console.log('dispatch: ' + dispatch)
     dispatch(inputCity(value));
   }
 

@@ -2,7 +2,6 @@ import React from 'react';
 
 export default class History extends React.Component {
   render() {
-    console.log(this.props.history)
     return (
       <div className='col-sm-6'>
         <div className='card'>

@@ -11,7 +11,6 @@ export const getWeather = (city) => ({
 });
 
 export function inputCity(city) {
-  console.log('action: ' + city)
   return {
     type: 'UPDATE_CITY_INPUT',
     payload: { city }
